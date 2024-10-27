@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>VENIA</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/venia.css">
+</head>
+
+<body>
+
+    <!-- header starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./images/VeniaLogo.svg" alt="VENIA">
+            </a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerr">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>Women's</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>Men's</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>Smart Gear</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>Accessories</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+            <div class=" cart">
+                <a href="/" class="cart-icon">
+                    <img src="./images/shopping-bag.png" alt="venia-cart">
+                    <span>15</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- header starts here -->
+
+
+    <!--hero section ends here-->
+    <section class="hero-section">
+        <div class="container-fluid p-0">
+
+
+            <div id="carouselVenia" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3 p-0 ">
+                                <div class="hero-text">
+                                    <h1>Men's <span>Jackets </span>
+
+                                    </h1>
+                                    <div class="underline"></div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-9 p-0 ">
+                                <div class="hero-image">
+                                    <img src="./images/banner.png" alt="hero-banner " class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-3 p-0 ">
+                                <div class="hero-text">
+                                    <h1>Women's <span>Jackets</span>
+
+                                    </h1>
+                                    <div class="underline"></div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-9 p-0 ">
+                                <div class="hero-image">
+                                    <img src="./images/women_banner.png" alt="hero-banner " class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-3 p-0 ">
+                                <div class="hero-text">
+                                    <h1>Jewelry <span>Sale</span>
+
+                                    </h1>
+                                    <div class="underline"></div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-9 p-0 ">
+                                <div class="hero-image">
+                                    <img src="./images/jewellery_banner.png" alt="hero-banner " class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVenia"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselVenia"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--hero section ends here-->
+
+
+    <!-- products section starts here-->
+
+    <section class="products-section">
+        <div class="container">
+            <div class="row mb-3">
+
+                <div class="col-md-3">
+
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Clothing</a></li>
+                        <li class="breadcrumb-item"><a href="#">Men's</a></li>
+                        <li class="breadcrumb-item active">Outerwear</li>
+                    </ol>
+
+
+                </div>
+                <div class="col-md-6 mb-3"> <span class="product-count"></span> </div>
+                <div class="col-md-3 text-end">
+                    <input type="text" class="form-control search-control" placeholder="Search By Keyword">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h2>Categories</h2>
+                    <hr>
+                    <aside>
+                        <!-- <h3>Categories</h3> -->
+                        <div class="category-list">
+                            <!-- categories goes here -->
+
+                        </div>
+                    </aside>
+                    <h2>Price</h2>
+                    <form class="price-form">
+                        <input type="range" class="price-filter"  />
+                    </form>
+                    <p class="price-value"></p>
+                    <hr>
+                </div>
+                <div class="col-md-9">
+                    <div class="products-container">
+                        <!-- featured products goes here -->
+                        <div class="loader"></div>
+                    </div>
+                </div>
+                <div class="offset-md-3 col-md-9 text-center d-flex justify-content-center">
+                    <button class="load-more-btn btn btn-primary mt-4" style="display: none;">Load More</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- products section ends here-->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/venia.js"></script>
+</body>
+
+</html>
